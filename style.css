@@ -131,16 +131,21 @@ a{
 }
 
 
-span:before{
+span:after{
+    display: block;
+    margin: auto;
+    text-align: center;
     content:"entrepans";
     animation-name: slogan;
-    animation-duration: 5s;
+    animation-duration: 8s;
     animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-delay: 1s;
 }
 
 
 @keyframes slogan {
-    0%   {content: "psicologia"; color:red; color: ;}
+    0%   {content: "psicologia"; color:red;}
     10%  {content: "neuropsicologia"; color: blue;}
     20%  {content: "adults"; color: green;}
     30%  {content: "infantil"; color: violet;}
@@ -150,5 +155,5 @@ span:before{
     70% {content: "bruf bruf bruf"; color: magenta;}
     80% {content: "reeducacion"; color: pink;}
     90% {content: "miaumiaumiau"; color: green;}
-    100% {content: "TU"; color: black; font-size: 1.5em;}
+    100% {content: "TU"; color: black;}
   }
