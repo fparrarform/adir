@@ -20,7 +20,7 @@ canvas {
     position: fixed;   
     width: 100%;
     height: 100vh;
-    background-color: #f8f1f6; 
+    background-color: #ffffff; 
     background-image: url('');
     background-repeat: no-repeat;
     background-size: cover;
@@ -67,10 +67,11 @@ canvas {
 }
 
 .navbar {
-    background-color: #f5edf1 !important;
+    background-color: #80539A !important;
     position: fixed !important;
     top: 0;
     width: 100%;
+    
 }
 
 #color {
@@ -88,8 +89,8 @@ canvas {
 }
 
 .jumbotron {
-    margin: 200px 50px 50px 200px;    
-    background-color: #e5c2c27e!important;
+    margin: 20px 50px 50px 200px;    
+    background-color: #fbf8f87e!important;
     border-radius: 20px;
 }
 
@@ -97,7 +98,7 @@ section{
     height: 200px;
     width: 100%;
     background-color: #ffffffce;
-    margin: 40px 0 20px 0;
+    margin: 0px 0 20px 0;
 }
 
 #primero{
@@ -111,14 +112,43 @@ section{
     margin: auto;
 }
 
+a{
+    color: white !important;
+}
+
+
 .bg-light {
-    background-color: #ca48a466!important;
+    background-color: #80539A!important;
+    
 }
 
 #contenido{
     margin: 0;
     width: 100%;
-    background-color: white;
+    background-color: #f3dff3; 
+    ;
     padding: 50px;
 }
 
+
+span:before{
+    content:"entrepans";
+    animation-name: slogan;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes slogan {
+    0%   {content: "psicologia"; color:red; color: ;}
+    10%  {content: "neuropsicologia"; color: blue;}
+    20%  {content: "adults"; color: green;}
+    30%  {content: "infantil"; color: violet;}
+    40%  {content: "gent gran"; color: yellow;}
+    50% {content: "diagnòstic"; color: violet;}
+    60% {content: "intervenció"; color: cyan;}
+    70% {content: "bruf bruf bruf"; color: magenta;}
+    80% {content: "reeducacion"; color: pink;}
+    90% {content: "miaumiaumiau"; color: green;}
+    100% {content: "TU"; color: black; font-size: 1.5em;}
+  }
